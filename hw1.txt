@@ -1,0 +1,39 @@
+https://github.com/Addison-Blake-Snyder/.dotfiles
+
+In this lab i had to create a github account which was simple due to the fact
+i already had one. I then created a repository for this class. I configured my
+name and email. Then i created a ssh key for this class so i could authenticate
+securely. 
+
+Next i created a local .dotfiles directoru and added the required files. 
+these files included a readme and nanorc file. i used nano to edit the files. 
+I copied nano rc to my home direcotry so i could use it as a config. 
+
+After this i verfied my reposity with git init. Added the files and made 
+the intial commit. then i pushed it to my git repository. This let me verify 
+that all my work was uploaded correctly
+
+The biggest challenge i faced during this lab was setting up my key properly.
+The first time i did it something did save right. This cause me to get 
+authentication errors when trying to send my commits. I ended redoing the
+entire process of making a key and setting it up on github to fix this.
+
+commands used:
+
+cd ~
+mkdir -p .dotfiles
+ls -la
+cd .dotfiles
+pwd
+touch READ.me
+nano README.md
+cat README.me
+nano .nanorc
+cp .nanorc~/
+git init 
+git add --all
+git commit -m "init commit:
+git brach
+git remote add origin git@github.com:addison-blake-snyder/.dotfiles
+git push -u orign main
+
